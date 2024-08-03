@@ -1,0 +1,29 @@
+.contact {
+  padding: 25px;
+  height: auto;
+}
+
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.contact__list-item {
+  line-height: 2em;
+  max-width: 60ch;
+}
+
+.contact__description-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  margin-top: 1rem;
+}
+
+/* xl */
+@media (min-width: 1280px) {
+  .contact__list {
+    font-size: var(--size-2xl);
+  }
+}
